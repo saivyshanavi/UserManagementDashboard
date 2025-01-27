@@ -1,0 +1,31 @@
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* App Container */
+.App {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+/* Heading */
+.dashboard-title {
+  font-size: 25px;
+  margin-left: 290px; /* Adjust this to match the width of the sidebar */
+  margin-top: 10px; /* Add some space from the top */
+  margin-bottom: 10px;
+  color: #007bff;
+  font-family: 'Times New Roman';
+  text-align: left; /* Align text to the left */
+  font-weight: 900;
+}
+
+
+
+

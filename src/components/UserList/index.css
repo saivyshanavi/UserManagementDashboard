@@ -1,0 +1,147 @@
+/* Dashboard Container */
+.dashboard-container {
+  display: flex; /* Use flexbox layout for dashboard */
+  height: 100vh; /* Full height of the viewport */
+  font-family: Arial, sans-serif; /* Set the font for the dashboard */
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px; /* Set a fixed width for the sidebar */
+}
+
+/* Content Area */
+.content {
+  flex-grow: 1; /* Allow content area to take the remaining space */
+  padding: 20px; /* Add padding around content */
+  background-color: #f8f9fa; /* Light grey background */
+  overflow-y: auto; /* Allow vertical scrolling if content overflows */
+}
+
+/* Add User Button */
+.add-user-btn {
+  background-color: #007bff; /* Primary blue background */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Padding for the button */
+  font-size: 1rem; /* Set font size */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  margin-bottom: 20px; /* Space below the button */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.add-user-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* User Table */
+.user-table {
+  width: 100%; /* Full width table */
+  border-collapse: collapse; /* Remove space between table cells */
+  margin-top: 20px; /* Space above the table */
+  background-color: white; /* White background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow around table */
+  border-radius: 5px; /* Rounded corners for the table */
+  overflow: hidden; /* Hide overflow */
+}
+
+.user-table th,
+.user-table td {
+  text-align: left; /* Align text to the left */
+  padding: 10px; /* Padding inside table cells */
+}
+
+.user-table thead {
+  background-color: #007bff; /* Primary blue for the header */
+  color: white; /* White text for the header */
+}
+
+.user-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey for even rows */
+}
+
+.user-table tbody tr:hover {
+  background-color: #e9ecef; /* Slightly darker grey for hovered rows */
+}
+
+.user-table th {
+  text-transform: uppercase; /* Make header text uppercase */
+  font-weight: bold; /* Bold text for headers */
+  font-size: 0.9rem; /* Slightly smaller font size for headers */
+}
+
+/* Action Buttons */
+.edit-btn,
+.delete-btn {
+  padding: 5px 10px; /* Padding inside the buttons */
+  font-size: 0.9rem; /* Font size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-right: 5px; /* Space between buttons */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.edit-btn {
+  background-color: #ffc107; /* Warning yellow for edit button */
+  color: #212529; /* Dark text */
+}
+
+.edit-btn:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+  color: white; /* White text on hover */
+}
+
+.delete-btn {
+  background-color: #dc3545; /* Danger red for delete button */
+  color: white; /* White text */
+}
+
+.delete-btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Form Modal Styling */
+.user-form-modal {
+  position: fixed; /* Position modal fixed on screen */
+  top: 50%; /* Center modal vertically */
+  left: 50%; /* Center modal horizontally */
+  transform: translate(-50%, -50%); /* Adjust position to truly center */
+  background: white; /* White background */
+  padding: 20px; /* Padding inside modal */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Shadow for modal */
+  z-index: 1000; /* Ensure modal is above other elements */
+}
+
+.user-form-modal h3 {
+  margin-bottom: 15px; /* Space below the title */
+}
+
+.user-form-modal input,
+.user-form-modal button {
+  display: block; /* Make inputs and buttons block elements */
+  width: 100%; /* Full width of the modal */
+  margin-bottom: 10px; /* Space between inputs/buttons */
+}
+
+.user-form-modal button {
+  background-color: #007bff; /* Primary blue for buttons */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  padding: 10px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Font size */
+}
+
+.user-form-modal button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* General Styling */
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}

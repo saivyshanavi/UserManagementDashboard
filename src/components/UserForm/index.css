@@ -1,0 +1,73 @@
+/* Form Container */
+form {
+  display: flex; /* Flexbox for arranging form elements vertically */
+  flex-direction: column; /* Stack form elements in a column */
+  width: 100%; /* Make form take full width of container */
+  max-width: 400px; /* Limit form width to 400px */
+  margin: 20px auto; /* Center form horizontally with 20px margin on top and bottom */
+  padding: 20px; /* Add padding inside the form */
+  background-color: #ffffff; /* White background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+  font-family: Arial, sans-serif; /* Set font to Arial */
+}
+
+/* Input Fields */
+form input {
+  margin-bottom: 15px; /* Space between input fields */
+  padding: 10px; /* Add padding inside the input fields */
+  border: 1px solid #ddd; /* Light border color */
+  border-radius: 5px; /* Rounded corners for input fields */
+  font-size: 1rem; /* Font size for input text */
+  width: 100%; /* Make input fields take full width of form */
+  box-sizing: border-box; /* Ensure padding is included in width */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for border and box-shadow on focus */
+}
+
+/* Input Fields Focus State */
+form input:focus {
+  border-color: #007bff; /* Primary blue border color when input is focused */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Light blue glow effect */
+  outline: none; /* Remove default outline */
+}
+
+/* Buttons */
+form button {
+  padding: 10px; /* Add padding inside buttons */
+  margin-top: 10px; /* Space between buttons and other elements */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem; /* Set button font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color on hover */
+}
+
+/* Submit Button */
+form button[type="submit"] {
+  background-color: #007bff; /* Primary blue background */
+  color: white; /* White text color */
+  margin: 10px; /* Space between submit and other buttons */
+}
+
+/* Submit Button Hover State */
+form button[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Cancel Button */
+form button[type="button"] {
+  background-color: #6c757d; /* Gray background */
+  color: white; /* White text color */
+  margin-top: 10px; /* Space between cancel button and others */
+}
+
+/* Cancel Button Hover State */
+form button[type="button"]:hover {
+  background-color: #5a6268; /* Darker gray on hover */
+}
+
+/* Error Messages */
+.error {
+  color: red; /* Red text color for error messages */
+  font-size: 12px; /* Small font size for error messages */
+}

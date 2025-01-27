@@ -1,0 +1,19 @@
+/* ErrorBoundary Styling */
+
+/* Styling for the error boundary container */
+.error-boundary {
+  display: flex; /* Flexbox to center the content */
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  height: 100vh; /* Full height of the viewport */
+  text-align: center; /* Center align the text */
+  background-color: #f8d7da; /* Light red background to indicate an error */
+  color: #721c24; /* Dark red text for better contrast and emphasis */
+  font-family: "Arial", sans-serif; /* Set a clean and readable font */
+  font-size: 18px; /* Slightly larger text for better readability */
+  font-weight: bold; /* Make the text bold to stand out */
+  border: 1px solid #f5c6cb; /* Light red border to add emphasis */
+  border-radius: 8px; /* Rounded corners for a smooth design */
+  padding: 20px; /* Add padding inside the boundary for spacing */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow to lift the element */
+}
