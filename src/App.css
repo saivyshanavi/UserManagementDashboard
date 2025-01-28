@@ -16,7 +16,7 @@ body, html {
 
 /* Heading */
 .dashboard-title {
-  font-size: 25px;
+  font-size: 30px;
   margin-left: 290px; /* Adjust this to match the width of the sidebar */
   margin-top: 10px; /* Add some space from the top */
   margin-bottom: 10px;
