@@ -33,7 +33,10 @@ The primary purpose of this dashboard is to demonstrate the practical implementa
 
 ##  Live Demo
 
-Provide a link or instructions on how to access a live demo of the project if available.
+Experience the project live! Click the link below to see it in action:  
+
+🔗 [Live Demo](https://user-management-dashboard-app.vercel.app/)
+
 ## Installation
 
 Create React App:
